@@ -1,0 +1,84 @@
+{
+    "name": "api",
+    "version": "2.2.3",
+    "description": "API REST",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint ./",
+        "start": "nodemon src/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cacicustech/backend-elize.git"
+    },
+    "author": "Javier",
+    "license": "ISC",
+    "dependencies": {
+        "@google-cloud/storage": "^6.7.0",
+        "app-root-path": "^3.0.0",
+        "awilix": "^4.2.6",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.3",
+        "btoa": "^1.2.1",
+        "buffer": "^6.0.3",
+        "compression": "^1.7.4",
+        "cors": "^2.8.5",
+        "dotenv": "^8.6.0",
+        "easy-soap-request": "^5.3.0",
+        "escpos": "^3.0.0-alpha.6",
+        "escpos-usb": "^3.0.0-alpha.4",
+        "express": "^4.16.4",
+        "fs": "^0.0.1-security",
+        "handlebars": "^4.7.8",
+        "handlebars-helpers": "^0.10.0",
+        "html-pdf-node": "^1.0.8",
+        "jshashes": "^1.0.8",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.1",
+        "mongodb": "^4.6.0",
+        "morgan": "^1.9.1",
+        "multer": "^1.4.5-lts.1",
+        "node-cron": "^3.0.0",
+        "node-forge": "^1.3.1",
+        "nodemailer": "^6.9.11",
+        "nodemailer-smtp-transport": "^2.7.4",
+        "nodemon": "^2.0.15",
+        "path": "^0.12.7",
+        "pg": "^8.3.3",
+        "pm2": "^5.1.2",
+        "qrcode-terminal": "^0.12.0",
+        "request": "^2.88.2",
+        "restify-errors": "^8.0.2",
+        "sladex-blowfish": "^0.8.1",
+        "sync-request": "^6.1.0",
+        "utf8": "^3.0.0",
+        "whatsapp-web.js": "^1.16.5",
+        "winston": "^3.2.1",
+        "xml2js": "^0.6.2",
+        "xmlbuilder": "^15.1.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.16.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.22.1"
+    },
+    "nodemonConfig": {
+        "restartable": "rs",
+        "ignore": [
+            "node_modules/**/node_modules"
+        ],
+        "delay": "2500",
+        "env": {
+            "NODE_ENV": "development",
+            "PORT": 3001
+        }
+    },
+    "bugs": {
+        "url": "https://github.com/javisanchez3144"
+    },
+    "homepage": "https://github.com/javisanchez3144",
+    "keywords": [
+        "api"
+    ]
+}

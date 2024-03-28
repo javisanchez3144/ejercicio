@@ -1,0 +1,17 @@
+/env.development
+/env.production
+#/src/frameworks/server.js
+/frontend
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/logs
+/node_modules
+/WWebJs
+
+/src/frameworks/externalServices/otros/xmlfirmados
+/src/frameworks/externalServices/otros/xmlautorizados
+/src/frameworks/externalServices/otros/firmas
